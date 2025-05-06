@@ -4,11 +4,11 @@ import torch
 from pathlib import Path
 
 CONFIG = Config(
-    model_path="/mnt/scratch0/cowen/screen/models/MACE/MACE-MP-0b2/mace-small-density-agnesi-stress.model",
+    model_path="mace-small-density-agnesi-stress.model",
     device="cuda" if torch.cuda.is_available() else "cpu",
     dispersion=True,
     default_dtype="float64",
-    traj_dir="/mnt/scratch0/cowen/screen/cat_eo/EO_mono_trajectories",
+    traj_dir="/EO_mono_trajectories",
     filename="EO_mono_results.json",
     host_mp_ids=["mp-124"],
     miller_indices=[(1, 1, 1)],
