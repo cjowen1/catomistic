@@ -1,4 +1,4 @@
-from screen_new import Calculator, Structure, Adsorption, InitResults
+from src/screen import Calculator, Structure, Adsorption, InitResults
 from config_models import Config
 import torch
 from pathlib import Path
