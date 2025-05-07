@@ -1,6 +1,6 @@
 # Catomistic
 
-A package for atomistic simulations and machine learning in catalysis and surface chemistry.
+A package for atomistic simulations and machine learning in catalysis and surface chemistry. This code is actively being developed, as of May 07, 2025, by Cameron J. Owen.
 
 ## Project Structure
 
