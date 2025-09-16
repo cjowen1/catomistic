@@ -1,4 +1,4 @@
-# Catomistic
+# catomistic
 
 A package for atomistic simulations and machine learning in catalysis and surface chemistry. This code is actively being developed, as of May 07, 2025, by Cameron J. Owen.
 
@@ -26,38 +26,6 @@ catomistic/
 pip install .
 ```
 
-### Development Installation
-
-For development, install with additional tools:
-
-```bash
-pip install -e ".[dev]"
-```
-
-### With Visualization Support
-
-To install with visualization support:
-
-```bash
-pip install -e ".[viz]"
-```
-
-### Documentation Development
-
-To install with documentation tools:
-
-```bash
-pip install -e ".[docs]"
-```
-
-### Full Installation (All Features)
-
-To install with all optional dependencies:
-
-```bash
-pip install -e ".[dev,viz,docs]"
-```
-
 ## Requirements
 
 - Python >=3.9
@@ -78,25 +46,9 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. Install development dependencies:
-```bash
-pip install -e ".[dev]"
-```
-
-4. Run tests:
+3. Run tests (not yet implemented):
 ```bash
 pytest
-```
-
-5. Run tests with coverage:
-```bash
-pytest --cov=catomistic
-```
-
-6. Build documentation:
-```bash
-cd docs
-make html
 ```
 
 ## Contributing
@@ -104,8 +56,9 @@ make html
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
-4. Run tests and ensure they pass
-5. Submit a pull request
+5. Run tests and ensure they pass
+6. Format and lint with ruff
+7. Submit a pull request
 
 ## License
 
